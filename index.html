@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Imports Tênis</title>
+</head>
+<body>
+  <header>
+    <img class="logo" src="./img/logo.jpg" alt="">
+    <div class="header-middle">
+      <span class="welcome">Welcome, guest!</span>
+      <input type="text" class="search-box" placeholder="Search for a product">
+    </div>
+    <div class="header-left">
+      <nav class="header-menu">
+        <a class="header-menu-item" href="">Sign in</a>
+        <a class="header-menu-item" href="">Register</a>
+        <a class="header-menu-item" href="">My account</a>
+        <a class="header-menu-item" href="">Track order</a>
+      </nav>
+      <div class="header-left-bottom">
+        <div class="header-left-bottom-text">
+          <p>Cash on Delivery | 30 Day return</p>
+          <p>24/7 Customer Service <b>1800 00 11 22</b></p>
+        </div>
+        <div class="my-cart">
+          <i class='bx bxs-cart' style="font-size: 18px;"></i>
+          <span class="my-cart-text">My cart</span>
+        </div>
+        <div class="hamburger">
+          <input class="checkbox" type="checkbox" name="" id="">
+          <div class="my-cart menu-hamburger">
+            <i class='bx bx-menu' style="font-size: 18px;"></i>
+          </div>
+          <nav class="hamburger-menu-items">
+            <a href="#">Sign In</a>
+            <a href="#">Register</a>
+            <a href="#">My Account</a>
+            <a href="#">Track order</a>
+          </nav>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="banner">
+    <aside class="quick-find">
+      <div>
+        <h2>Quick Find - Choose product</h2>
+        <p>Find the right product at the right price.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <select class="banner-dropdown" name="type" id="">
+          <option value=""></option>
+        </select>
+        <select class="banner-dropdown" name="brand" id="">
+          <option value=""></option>
+        </select>
+        <select class="banner-dropdown" name="category" id="">
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="aside-button">
+        Search
+      </div>
+    </aside>
+    <div class="carousel-wrapper">
+      <span id="item-1"></span>
+      <span id="item-2"></span>
+      <span id="item-3"></span>
+      <div class="carousel-item item-1">
+        <a class="arrow arrow-prev" href="#item-3">
+          <i class='bx bx-chevron-left'></i>
+        </a>
+        <a class="arrow arrow-next" href="#item-2">
+          <i class='bx bx-chevron-right' ></i>
+        </a>
+      </div>
+    
+      <div class="carousel-item item-2">
+        <a class="arrow arrow-prev" href="#item-1">
+          <i class='bx bx-chevron-left'></i>
+        </a>
+        <a class="arrow arrow-next" href="#item-3">
+          <i class='bx bx-chevron-right' ></i>
+        </a>
+      </div>
+    
+      <div class="carousel-item item-3">
+        <a class="arrow arrow-prev" href="#item-2">
+          <i class='bx bx-chevron-left'></i>
+        </a>
+        <a class="arrow arrow-next" href="#item-1">
+          <i class='bx bx-chevron-right' ></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="products">
+      <div class="card">
+        <img class="card-image" src="./img/tenis1.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Downshifter 11 Masculino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 399,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis2.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Downshifter 11 Masculino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 399,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis3.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Precision 6 Masculino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 549,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis4.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Precision 6 Masculino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 549,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis5.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Downshifter 11 Masculino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 399,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis6.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Precision 6 Masculino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 549,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis7.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Revolution 6 Next Nature Feminino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 319,99</span>
+      </div>
+      <div class="card">
+        <img class="card-image" src="./img/tenis8.png" alt="">
+        <span class="card-text" style="display: flex; align-items: start; width: 100%;">Tênis Nike Downshifter 12 Feminino</span>
+        <div class="star">
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <span class="price" style="width: 100%;">R$ 449,99</span>
+      </div>
+    </div>
+    <aside class="main-aside">
+      <div class="most-reviewed">
+        <b>Most Reviewed Items</b>
+        <div class="ms-product">
+          <img class="card-image" src="./img/tenis5.png" alt="">
+          <div class="ms-product-info">
+            <span class="card-text">Tênis Nike Downshifter 11 Masculino</span>
+            <div class="star">
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+            </div>
+            <span class="price" style="width: 100%;">R$ 399,99</span>
+          </div>
+        </div>
+        <div class="ms-product">
+          <img class="card-image" src="./img/tenis2.png" alt="">
+          <div class="ms-product-info">
+            <span class="card-text">Tênis Nike Downshifter 11 Masculino</span>
+            <div class="star">
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+              <i class='bx bxs-star' style="color: rgb(255, 187, 0);"></i>
+            </div>
+            <span class="price" style="width: 100%;">R$ 399,99</span>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter">
+        <b>NewsLetter</b>
+        <span>Signup for newsletter!</span>
+        <input type="text" name="" class="search-box" style="width: 100%;">
+        <div class="aside-button">Join Now</div>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <div class="footer-item">
+      <b>Payment Methods</b>
+      <div class="payment-methods">
+        <i class='bx bxl-mastercard'></i>
+        <i class='bx bxl-visa' ></i>
+        <i class='bx bxl-paypal'></i>
+      </div>
+    </div>
+    <div class="footer-item">
+      <b>Quick Links</b>
+      <ul class="quick-links">
+        <li class="quick-links-item">Help</li>
+        <li class="quick-links-item">Shipping Policy</li>
+        <li class="quick-links-item">Cancelation & Returns</li>
+        <li class="quick-links-item">FAQ</li>
+        <li class="quick-links-item">Privacy Policy</li>
+        <li class="quick-links-item">Disclaimer</li>
+      </ul>
+    </div>
+    <div class="footer-item">
+      <b>Lets be social</b>
+      <ul class="social-media">
+        <li><i class='bx bxl-facebook-square' ></i></li>
+        <li></li><i class='bx bxl-twitter' ></i></li>
+        <li></li><i class='bx bxl-google-plus-circle' ></i></li>
+      </ul>
+    </div>
+    <div class="footer-item">
+      <b>Contact Us</b>
+      <ul class="contact-us">
+        <li>Address line one</li>
+        <li>Street No</li>
+        <li>Place</li>
+      </ul>
+    </div>
+    <span class="footer-text-end">© 2005-2023 - importstenis.com</span>
+  </footer>
+</body>
+</html>
